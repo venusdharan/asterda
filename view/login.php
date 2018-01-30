@@ -1,8 +1,8 @@
 <?php
 include_once './config/settings.php';
 include_once './config/webinfo.php';
-$site_root= "triophore";
-$full_root="http://localhost/$site_root/";
+$site_root= "http://blockchainerp.azurewebsites.net";
+$full_root="http://blockchainerp.azurewebsites.net/";
 include_once './core/SessionStart.php';
 include_once './ops/auth.php';
 
