@@ -202,7 +202,7 @@ get_js("bower_components/iCheck/icheck.min.js",$full_root);
 </footer-->
 
 <footer>
-   <strong>Copyright &copy; 2016 <a  class="cre" href="#"  data-href="http://www.august9systems.com/">AUGUST9 Systems Pte Ltd </a>.</strong> All rights reserved. 
+   <strong>Copyright &copy; 2016 <a  class="cre" target="_blank"  href="http://www.august9systems.com/">AUGUST9 Systems Pte Ltd </a>.</strong> All rights reserved. 
 </footer>
 </body>
 </html>
