@@ -21,7 +21,7 @@ include_once './config/webinfo.php';
 include_once './config/settings.php';
 include_once './ops/auth.php'; 
   //  echo "<script>setTimeout(function() { window.location.href='http://localhost/triophore/$default';}, 100);</script>";
-header("location: http://localhost/triophore/$default");
+header("location: http://blockchainerp.azurewebsites.net/$default");
                                //exit();
 });
 
@@ -48,28 +48,28 @@ $root = root;
                    if(check_auth())
                    {
 
-                      include_once  $_SERVER['DOCUMENT_ROOT'].'/'.root."/view/$r.php"; 
+                      include_once  $_SERVER['DOCUMENT_ROOT'].root."/view/$r.php"; 
                       exit();
                    }
                    else 
                    {
 
                        // echo "<script>setTimeout(function() { window.location.href='http://localhost/triophore/logout';}, 100);</script>";
-                        header("location: http://localhost/triophore/logout");
+                        header("location: http://blockchainerp.azurewebsites.net/logout");
                         exit();
                    }
                 }
                 else
                 {
 
-                    include_once  $_SERVER['DOCUMENT_ROOT'].'/'.root."/view/$r.php"; 
+                    include_once  $_SERVER['DOCUMENT_ROOT'].root."/view/$r.php"; 
                     exit();
                 }
                  //print_r($routes);
             }else
             {
                  //echo "<script>setTimeout(function() { window.location.href='http://localhost/triophore/$default';}, 100);</script>";
-                include_once $_SERVER['DOCUMENT_ROOT'].'/'.root."/view/notfound.php"; 
+                include_once $_SERVER['DOCUMENT_ROOT'].root."/view/notfound.php"; 
                         exit();
             }
     }
@@ -101,7 +101,7 @@ include_once './ops/auth.php';
             {
                 if($routes["$r"]["post"] === "true")
                 {
-                    include_once $_SERVER['DOCUMENT_ROOT'].'/'.root."/ops/$r.php"; 
+                    include_once $_SERVER['DOCUMENT_ROOT'].root."/ops/$r.php"; 
                     //echo "post data";
                     exit();
                 }
