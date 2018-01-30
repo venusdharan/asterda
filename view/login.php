@@ -201,7 +201,7 @@ get_js("bower_components/iCheck/icheck.min.js",$full_root);
 </footer-->
 
 <footer>
-   <strong>Copyright &copy; 2016 <a  class="cre" href="#"  data-href="http://www.triophore.com"><?php echo company_name; ?></a>.</strong> All rights reserved. 
+   <strong>Copyright &copy; 2016 <a  class="cre" href="#"  data-href="http://blockchainerp.azurewebsites.net">Block Chain ERP</a>.</strong> All rights reserved. 
 </footer>
 </body>
 </html>
