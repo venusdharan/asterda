@@ -74,10 +74,11 @@ footer {
 <body class="hold-transition ">
 <div class="login-box">
     <div class="login-logo" >
-    <a href="#" style="color:white;"><b>Block Chain</b>ERP</a>
+    <!--a href="#" style="color:white;"><b>Block Chain</b>ERP</a-->
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
+        <img src="August9logo.png" style="width:100%;"></img>
     <p class="login-box-msg">Sign in to start your session</p>
 
     <form id="login">
