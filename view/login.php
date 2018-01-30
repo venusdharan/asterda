@@ -74,7 +74,7 @@ footer {
 <body class="hold-transition ">
 <div class="login-box">
     <div class="login-logo" >
-    <a href="#" style="color:white;"><b>Mizan</b>ERP</a>
+    <a href="#" style="color:white;"><b>Block Chain</b>ERP</a>
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
